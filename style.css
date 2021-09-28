@@ -4,6 +4,8 @@
 
     body {
         background-image: url('Art/lordlogop.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: cover;
         color: white;
         margin: 0;
