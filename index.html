@@ -15,9 +15,31 @@
         font-family: sans-serif, Arial, Helvetica;
     }
 
+    .card {
+        background: white;
+        border: 5px;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 7px 7px 10px 3px darkgrey; 
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    .left, .right {
+        width: 45%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
     .hobbies {
         list-style:circle;
     }
+
+
 </style>
 <body>
     <header id="header">
@@ -32,22 +54,26 @@
     <main>
         <article>  
             <h1>This is the home page</h1>
-            <figure>
-                <img src="/Art/self-portrait.png" alt="Portrait of me">
-                <figcaption>This is me when I graduated from the university of Lords</figcaption>
-            </figure>
-            <section>
-                <p>Text introducing myself</p>
-            </section>
-            <section>
+
+            <div class="card">
+                <figure class="left">
+                    <img src="/Art/self-portrait.png" alt="Portrait of me">
+                    <figcaption>This is me when I graduated from the university of Lords</figcaption>
+                </figure>
+                <section>
+                    <p>Text introducing myself</p>
+                </section>
+                <section class="right">
                 
-                <ul class="hobbies">
-                    <p>These are some of my hobbies:</p>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
+                    <ul class="hobbies">
+                        <p>These are some of my hobbies:</p>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+            </div>
+
             <figure class="quote">
                 <blockquote>
                     This is a very long quote, This is a very long quoteThis is a very long quote
