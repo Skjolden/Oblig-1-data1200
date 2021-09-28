@@ -47,13 +47,13 @@
     }
 
     .card {
-        background: white;
+        background: #333333;
         border: 5px;
         box-sizing: border-box;
         padding: 10px;
         width: 100%;
         text-align: center;
-        box-shadow: 10px 10px 10px 3px darkgrey; 
+        box-shadow: 10px 10px 10px 3px #111111; 
     }
 
     figure img {
