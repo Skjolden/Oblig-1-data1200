@@ -9,10 +9,50 @@
 </head>
 <style>
     body {
+        background-image: url('Art/lordlogop.png');
         color: black;
         margin: 0;
         padding: 0;
         font-family: sans-serif, Arial, Helvetica;
+    }
+
+    main {
+        margin: 5%;
+    }
+
+    article * {
+        margin: 20px 0;
+    }
+
+    
+
+    #header ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+
+    #header li {
+        float: left;
+    }
+
+    #header li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    #header li a:hover {
+        background-color: #111111;
+    }
+
+    h1 {
+        font-size: 3em;
+        color: white;
     }
 
     .card {
@@ -40,21 +80,25 @@
         text-align: left;
     }
 
+    .justify-with-padding {
+        text-align: justify;
+        padding: 5%;
+    }
 
 </style>
 <body>
     <header id="header">
         <ul>
-            <li><a href="index.html">Home page</a></li>
-            <li><a href="Cv.html">MY CV</a></li>
-            <li><a href="Portifolio.html">MY ARTWORK</a></li>
-            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="Cv.html">My CV</a></li>
+            <li><a href="Portifolio.html">My Artwork</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </header>
 
     <main>
         <article>  
-            <h1>This is the home page</h1>
+            <h1>Lord McMuffin</h1>
 
             <div class="card">
                 <div class="left">
@@ -79,25 +123,31 @@
                 </div>
             </div>
 
-            <figure class="quote">
-                <blockquote>
-                    This is a very long quote, This is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quote
-                    This is a very long quote.
-                </blockquote>
-                <figcaption>
-                    &mdash; Author Nameson, <cite>Book name</cite>
-                </figcaption>
-            </figure>
+            <div class="card justify-with-padding">
+                <figure class="quote">
+                    <blockquote>
+                        This is a very long quote, This is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quote
+                        This is a very long quote.
+                    </blockquote>
+                    <figcaption>
+                        &mdash; Author Nameson, <cite>Book name</cite>
+                    </figcaption>
+                </figure>
+            </div>
         </article>
-
     </main>
 
     
 
-    <footer>Footer</footer>
+    <footer>
+        <hr>
+        <p>
+            This is a footer
+        </p>
+    </footer>
 </body>
 </html>
