@@ -79,7 +79,6 @@
 
     .tooltip{
         position:relative;
-        display:inline;
     }
     .tooltip .text{
         display:none;
