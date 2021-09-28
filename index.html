@@ -8,41 +8,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--The navigation menu-->
     <header id="header">
-        <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="Cv.html">My CV</a></li>
-            <li><a href="Portifolio.html">My Artwork</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="cv.html">My CV</a></li>
+                <li><a href="portifolio.html">My Artwork</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
-
+    <!-- Main section of the page-->
     <main>
         <article>  
             <h1>Lord McMuffin</h1>
-
-            <div class="card">
-                <div class="left">
+            <!--First card with left and right sections-->
+            <div >
+                <div class="card left">
                     <figure>
                         <img src="Art/self-portrait.png" alt="Portrait of me">
                         <figcaption>This is me when I graduated from the university of Lords</figcaption>
                     </figure>
                 </div>
                 
-                <div class="right">
+                <div class="card right">
                     <p>
-                        My name is Lord McMuffin, I am currently in my last year of university taking my second master. Earlier I have studied 
+                        My name is Lord McMuffin, I am currently in my last year of university taking my second master. 
+                        I have a lot of experience in software development and website design. As you can see in
+                        <a href="portifolio.html">my artwork</a> page I enjoy painting a lot in my spare time.
+
                     </p>
-                
-                    <ul class="hobbies">
+                    <div class="hobbies">
                         <p>These are some of my hobbies:</p>
-                        <li>Reading</li>
-                        <li>Programming</li>
-                        <li>Lord stuff</li>
-                    </ul>
+                        <ul>
+                            <li>Reading</li>
+                            <li>Programming</li>
+                            <li>Lord stuff</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
+            <!--Second card with spacing from the first card-->
             <div class="card justify-with-padding">
                 <figure class="quote">
                     <blockquote>
@@ -60,10 +67,14 @@
             </div>
         </article>
     </main>
+    <!--Footer with student numbers as a tooltip-->
     <footer>
         <hr>
         <p>
-            This is a footer
+            This website was created by <span class="tooltip">Eivind Skjolden<span class="text">(<em>S362087</em>)</span></span> • 
+            <span class="tooltip">Gard Ulsund<span class="text">(<em>S329295</em>)</span></span> •
+            <span class="tooltip">Ravi Singh Gill<span class="text">(<em>S364592</em>)</span></span> •
+            <span class="tooltip">Sam Kanaan<span class="text">(<em>S364575</em>)</span></span>
         </p>
     </footer>
 </body>
