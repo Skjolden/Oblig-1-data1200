@@ -65,6 +65,7 @@
         width: 45%;
         vertical-align: middle;
         display: inline-block;
+        margin: 5px;
     }
 
     .hobbies *{
