@@ -67,7 +67,7 @@
         display: inline-block;
     }
 
-    .hobbies {
+    .hobbies *{
         list-style:circle;
         text-align: left;
     }
