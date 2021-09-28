@@ -10,11 +10,11 @@
         font-family: sans-serif, Arial, Helvetica;
     }
 
-    main {
+    main , footer{
         margin: 5%;
     }
 
-    article * {
+    article *{
         margin: 20px 0;
     }
 
