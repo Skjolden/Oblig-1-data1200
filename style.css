@@ -73,6 +73,12 @@
     figure img {
         border: none;
         width: 100%;
+        margin: 0;
+    }
+
+    figcaption {
+        font-size: small;
+        margin-top: 2px;
     }
 
     .left, .right {
