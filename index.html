@@ -14,21 +14,83 @@
         padding: 0;
         font-family: sans-serif, Arial, Helvetica;
     }
+
+    .card {
+        background: white;
+        border: 5px;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 7px 7px 10px 3px darkgrey; 
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    .left, .right {
+        width: 45%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    .hobbies {
+        list-style:circle;
+        text-align: left;
+    }
+
+
 </style>
 <body>
     <header id="header">
         <ul>
+            <li><a href="index.html">Home page</a></li>
             <li><a href="Cv.html">MY CV</a></li>
             <li><a href="Portifolio.html">MY ARTWORK</a></li>
             <li><a href="about.html">ABOUT</a></li>
         </ul>
     </header>
+
     <main>
         <article>  
             <h1>This is the home page</h1>
-            <figure>
-                <img src="/Art/self-portrait.png" alt="Portrait of me">
-                <figcaption></figcaption>
+
+            <div class="card">
+                <div class="left">
+                    <figure>
+                        <img src="Art/self-portrait.png" alt="Portrait of me">
+                        <figcaption>This is me when I graduated from the university of Lords</figcaption>
+                    </figure>
+                </div>
+                
+                <div class="right">
+                    <p>Text introducing myself, Text introducing myselfText introducing myselfText introducing myselfText introducing myself
+                        Text introducing myselfText introducing myselfText introducing myself
+                        Text introducing myselfText introducing myselfText introducing myselfText introducing myself
+                    </p>
+                
+                    <ul class="hobbies">
+                        <p>These are some of my hobbies:</p>
+                        <li>Reading</li>
+                        <li>Programming</li>
+                        <li>Lord stuff</li>
+                    </ul>
+                </div>
+            </div>
+
+            <figure class="quote">
+                <blockquote>
+                    This is a very long quote, This is a very long quoteThis is a very long quote
+                    This is a very long quoteThis is a very long quoteThis is a very long quote
+                    This is a very long quoteThis is a very long quoteThis is a very long quote
+                    This is a very long quoteThis is a very long quote
+                    This is a very long quoteThis is a very long quote
+                    This is a very long quote.
+                </blockquote>
+                <figcaption>
+                    &mdash; Author Nameson, <cite>Book name</cite>
+                </figcaption>
             </figure>
         </article>
 
