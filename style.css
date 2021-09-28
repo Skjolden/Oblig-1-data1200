@@ -2,11 +2,6 @@
         border: 5px solid #555
     }
 
-    div {
-        word-wrap: break-word;
-        width: 1000px;
-     }
-
     body {
         background-image: url('Art/lordlogop.png');
         color: white;
