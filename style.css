@@ -17,7 +17,6 @@ h1,h2,h3 {color: blue;
         word-wrap: break-word;
         width: 1000px;
      }
-    </style>
 
     body {
         background-image: url('Art/lordlogop.png');
@@ -34,8 +33,6 @@ h1,h2,h3 {color: blue;
     article * {
         margin: 20px 0;
     }
-
-    
 
     #header ul{
         list-style-type: none;
