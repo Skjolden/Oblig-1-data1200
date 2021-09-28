@@ -78,11 +78,12 @@
     }
 
     .tooltip{
-        position:relative
+        position:relative;
+        display:inline;
     }
     .tooltip .text{
-        display:none
+        display:none;
     }
     .tooltip:hover .text{
-        display:inline-block
+        display:inline-block;
     }
