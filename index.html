@@ -15,6 +15,19 @@
         font-family: sans-serif, Arial, Helvetica;
     }
 
+    article * {
+        margin: 20px 0;
+    }
+
+    #header {
+        background-color: black;
+        color: white;
+    }
+
+    #header ul{
+        list-style-type: none;
+    }
+
     .card {
         background: white;
         border: 5px;
@@ -40,6 +53,10 @@
         text-align: left;
     }
 
+    .justify-with-padding {
+        text-align: justify;
+        padding: 5%;
+    }
 
 </style>
 <body>
@@ -79,21 +96,22 @@
                 </div>
             </div>
 
-            <figure class="quote">
-                <blockquote>
-                    This is a very long quote, This is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quote
-                    This is a very long quoteThis is a very long quote
-                    This is a very long quote.
-                </blockquote>
-                <figcaption>
-                    &mdash; Author Nameson, <cite>Book name</cite>
-                </figcaption>
-            </figure>
+            <div class="card justify-with-padding">
+                <figure class="quote">
+                    <blockquote>
+                        This is a very long quote, This is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quote
+                        This is a very long quoteThis is a very long quote
+                        This is a very long quote.
+                    </blockquote>
+                    <figcaption>
+                        &mdash; Author Nameson, <cite>Book name</cite>
+                    </figcaption>
+                </figure>
+            </div>
         </article>
-
     </main>
 
     
